@@ -15,14 +15,16 @@ using System.Windows.Shapes;
 
 namespace SnakeWPF.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для EndGame.xaml
-    /// </summary>
     public partial class EndGame : Page
     {
         public EndGame()
         {
             InitializeComponent();
+        }
+
+        private void OpenHome(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

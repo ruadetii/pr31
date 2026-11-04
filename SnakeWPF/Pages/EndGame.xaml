@@ -9,6 +9,47 @@
       Title="EndGame">
 
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/SnakeWPF;component/Image/menu-background.png"/>
+        </Grid.Background>
+        <Grid>
+            <Grid Width="320"
+                  Height="200"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/SnakeWPF;component/Image/space-for-buttons-background.png"/>
+                </Grid.Background>
+                <Label
+                    x:Name="name"
+                    Content="Alexashchka"
+                    Margin="45,51,45,0"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Forte"
+                    FontSize="16"/>
+                <Label
+                    x:Name="glasses"
+                    Content="90 glasses"
+                    Margin="45,83,45,0"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Center"
+                    FontFamily="Forte" Height="24"/>
+                <Button Click="OpenHome"
+                        Content="Main Menu"
+                        HorizontalAlignment="Left"
+                        Margin="45,0,0,10"
+                        VerticalAlignment="Bottom"
+                        Width="230"
+                        Height="25" FontFamily="Forte"/>
+                <Label x:Name="top"
+                       Content="999"
+                       Margin="45,96,45,0"
+                       VerticalAlignment="Top"
+                       HorizontalContentAlignment="Center"
+                       FontFamily="Forte"
+                       Height="67" VerticalContentAlignment="Center" FontSize="48"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

@@ -15,14 +15,16 @@ using System.Windows.Shapes;
 
 namespace SnakeWPF.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для Home.xaml
-    /// </summary>
     public partial class Home : Page
     {
         public Home()
         {
             InitializeComponent();
+        }
+
+        private void StartGame(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace SnakeWPF.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для Game.xaml
-    /// </summary>
     public partial class Game : Page
     {
         public Game()
