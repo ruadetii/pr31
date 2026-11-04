@@ -45,7 +45,7 @@
                          Height="20"
                          Margin="58,71,0,0"
                          TextWrapping="Wrap"
-                         Text="192.168.0.107"
+                         Text="127.0.0.1"
                          VerticalAlignment="Top"
                          Width="140"
                          VerticalContentAlignment="Center"
